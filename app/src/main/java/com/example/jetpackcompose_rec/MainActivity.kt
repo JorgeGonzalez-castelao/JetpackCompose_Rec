@@ -39,8 +39,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun BirthdayCardPreview() {
     JetpackCompose_RecTheme {
-        Greeting("Android")
+        Greeting("Jorge")
     }
 }
